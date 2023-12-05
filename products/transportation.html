@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main_rwd.css">
+	<link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/transport.css">
+	<link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <title>Carbon Footprint estimator</title>
+</head>
+<body>
+	<div class="body">
+		<header>
+			<a href="./index.html"><img class="pumpkin" src="../images/logo.png" alt="Pumpkin Images"></a>
+			<h2 class="header2">Carbon Footprint Estimator</h2>
+			<h3 class="header3">Calculate the carbon footprint of your project</h3>
+		</header>
+		<div class="menu">
+			<ul>
+				<li><a href="../index_new.html">Home</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Generate Report</a></li>
+					</ul>
+				</li>
+				<li><a  href="../products/disposal.html">Disposal</a></li>
+				<li><a href="../products/manufacturing.html">Manufacturing</a></li>
+				<li><a href="../products/operation.html">Operation</a></li>
+				<li><a id="current" href="../products/transportation.html">Transportation</a></li>
+			</ul>
+		</div>
+		<div class="flexbox">
+			<div class="center">
+				<main>
+                    <h2 div class="centered">Transport (Vehicle Information)</h2>
+                    <p>Enter the type of fuel used and the amount of gallons to calculate the estimate emissions</p>
+                    <h2 div class="subtitles">Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fuel Type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         US Gallons</h2>
+                
+                    <label for="course_1_ch"> Vehicle 1:</label>
+                    <input div class="smaller" type="text" name="course_1_ch" id="course_1_ch" required>
+                    <input div class="smaller2" type="text" name="course_1_lg" id="course_1_lg" required><br>
+                    <label for="course_2_ch"> Vehicle  2:</label>
+                    <input div class="smaller" type="text" name="course_2_ch" id="course_2_ch" required>
+                    <input div class="smaller2" type="text" name="course_2_lg" id="course_2_lg" required><br>
+                    
+                    <label for="course_3_ch"> Vehicle  3:</label>
+                    <input div class="smaller" type="text" name="course_3_ch" id="course_3_ch" required>
+                    <input div class="smaller2" type="text" name="course_3_lg" id="course_3_lg" required><br>
+                    <label for="course_4_ch"> Vehicle  4:</label>
+                    <input div class="smaller" type="text" name="course_4_ch" id="course_4_ch" required>
+                    <input div class="smaller2" type="text" name="course_4_lg" id="course_4_lg" required><br>
+                    <label for="course_5_ch"> Vehicle  5:</label>
+                    <input div class="smaller" type="text" name="course_5_ch" id="course_5_ch" required>
+                    <input div class="smaller2" type="text" name="course_5_lg" id="course_5_lg" required><br>
+                    
+                    
+                    <label for="avg_gpa"> Emmisions Calculate</label>
+                    <input div class="smaller" type="text" name="avg_gpa" id="avg_gpa" required><br>
+                    
+                    <input div class="buttons" type="submit" name="submit" id="submit" value="submit">
+                    <input div class="buttons" type="reset" name="reset" id="reset"> 
+                    
+                    </section>
+				</main>
+			</div>
+		</div>
+		<footer>
+			<p>&copy 2023 Mauricio Yepez</p>
+		</footer>
+	</div>
+</body>
+</html>
